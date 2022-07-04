@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_green_light"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_player1"
+            android:id="@+id/name_player1"
+            android:textSize="@string/text_size"
+            android:layout_gravity="start"
+            android:layout_margin="@string/text_size"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pseudo"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:id="@+id/old_pseudo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pseudo_player"
+            android:inputType="text"
+            android:autofillHints="Nouveau pseudo" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_pseudo"
+            android:id="@+id/change_pseudo"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

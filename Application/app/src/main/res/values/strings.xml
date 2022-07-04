@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TournamentCreator</string>
+    <string name="new_tournament_text">Nouveau tournoi</string>
+    <string name="folder_text">Liste de tournois</string>
+    <string name="settings_text">Ajouter un tournoi</string>
+    <string name="number_player">Nombre de joueurs :</string>
+    <string name="looser_bracket_name">Looser bracket</string>
+    <string name="BO_name">BO</string>
+    <string name="text_1">1</string>
+    <string name="text_3">3</string>
+    <string name="text_5">5</string>
+    <string name="save_text">Sauvegarder</string>
+    <string name="date">Date</string>
+    <string name="check_end">Finit</string>
+    <string name="load_text">Charger</string>
+    <string name="del_text">Supprimer</string>
+    <string name="defaut">Défaut</string>
+    <string name="error_void">D\'abord sélectionner un tournoi</string>
+    <string name="name_player1">Default 1</string>
+    <string name="name_player2">Default 2</string>
+    <string name="pseudo">Default</string>
+    <string name="text_size">25sp</string>
+    <string name="send_pseudo">Changer le pseudo</string>
+    <string name="winner_1">Winner1</string>
+    <string name="winner_2">Winner2</string>
+
+</resources>
